@@ -1,8 +1,8 @@
 # Django LDAP
 
 This library provides LDAP3 integration for Django, its purpose is to
-wrap the ldap3 library and provide useful helpers for searching and
-manipulating a given directory.
+wrap the [ldap3](https://pypi.org/project/ldap3/) library and provide useful
+helpers for searching and manipulating a given directory.
 
 This library intends on becoming a full-fledged authentication backend
 for Django in coming updates.
