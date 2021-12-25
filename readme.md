@@ -17,10 +17,10 @@ for Django in coming updates.
 $ pip install django-ldap
 ~~~
 
-2. Add "django_ldap" to your INSTALLED_APPS setting  
+2. Add `django_ldap` to your `INSTALLED_APPS` setting  
 ![installed_apps](https://raw.githubusercontent.com/strife-dev/django-ldap/main/documentation/img/installed_apps.png)
 
-3. Add "django_ldap.backend.LDAPBackend" as an AUTHENTICATION_BACKENDS i.e.
+3. Add `django_ldap.backend.LDAPBackend` as an `AUTHENTICATION_BACKENDS` i.e.
 
 ```python
 AUTHENTICATION_BACKENDS = [
